@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #140d0d,
+        #2a0f0f,
+        #1a1a1a,
+        #3b1233
+    );
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    border-radius:15px;
+    background:linear-gradient(45deg,#ff4d6d,#ff9f43);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-buttons{ 
+    display:flex;
+    gap:10px;
+}
+
+.btn,
+.menu{
+    padding:12px 22px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.dark{
+    background:#1f1f1f;
+    color:white;
+}
+
+.orange{
+    background:#ff9f43;
+    color:white;
+}
+
+.menu{
+    background:#444;
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero span{
+    color:#ff6b6b;
+}
+
+.hero p{
+    margin-top:20px;
+    color:#ccc;
+    letter-spacing:4px;
+}
+
+.card{
+    max-width:800px;
+    margin:40px auto;
+    background:#000;
+    padding:30px;
+    border-radius:30px;
+}
+
+textarea{
+    width:100%;
+    height:150px;
+    background:transparent;
+    border:none;
+    color:white;
+    font-size:22px;
+    resize:none;
+    outline:none;
+}
+
+.actions,
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+    margin-top:20px;
+}
+
+.actions button,
+.enhance,
+.build{
+    padding:15px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.actions button,
+.enhance{
+    background:#222;
+    color:white;
+}
+
+.build{
+    background:#b96d2c;
+    color:white;
+    flex:1;
+}
+
+.tabs{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.tabs button{
+    padding:15px 35px;
+    border-radius:25px;
+    border:1px solid #555;
+    background:#1d1d1d;
+    color:white;
+}
+
+.tabs .active{
+    border:2px solid #ff9f43;
+}
+
+.templates{
+    margin-top:30px;
+    padding:15px 40px;
+    border:none;
+    border-radius:20px;
+    background:#333;
+    color:white;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dala Studio Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">D</div>
+
+        <div class="nav-buttons">
+            <button class="btn dark">Sign In</button>
+            <button class="btn orange">Sign Up</button>
+            <button class="menu">⋯</button>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Dala <span>Studio</span></h1>
+
+        <p>
+            CHANGE YOUR IDEAS INTO REALITY,<br>
+            BEFORE YOUR COFFEE GETS COLD.
+        </p>
+<a href=file:///C:/Users/HP/OneDrive/Documents/Desktop/sms/salim.html>click here</a>
+
+        <div class="card">
+            <textarea placeholder="Bayyana ra'ayin aikin ku..."></textarea>
+
+            <div class="actions">
+                <button>🎤 EN</button>
+                <button>📎</button>
+                <button>Support</button>
+            </div>
+
+            <div class="bottom">
+                <button class="enhance">✨ ENHANCE PROMPT</button>
+                <button class="build">BUILD APP</button>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="active">Build App</button>
+            <button>Chat</button>
+            <button>›</button>
+        </div>
+
+        <button class="templates">Show Templates</button>
+    </div>
+
+</body>
+</html>
